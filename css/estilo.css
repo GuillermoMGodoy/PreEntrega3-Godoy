@@ -1,0 +1,219 @@
+body {
+  background-color: #ffbc0f;
+
+}
+
+.izquierda {
+  background: #ffbc0f;
+  height: 100vh;
+  width: 50%;
+}
+.izquierda h1 {
+  position: relative;
+  top: 400px;
+  font-size: 80px;
+  width: 60%;
+  color: black;
+  margin-bottom: 40px;
+  margin: auto;
+}
+.izquierda .creative {
+  color: white;
+  font-size: 80px;
+  transition-duration: 2s;
+}
+
+.derecha {
+  background: url(https://cdn.foodandwineespanol.com/2019/06/detscada-hongos.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100vh;
+}
+
+#pantalla-dividida {
+  display: flex;
+}
+
+.imgreceta {
+  height: 33vh;
+  width: 33vh;
+}
+
+.titulo {
+  background-color: whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  border-radius: 10px;
+}
+
+.imgreceta {
+  margin-top: 1px;
+  margin-bottom: 0.5cm;
+  border-radius: 10px;
+}
+
+.col-lg-3 {
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.receta {
+  background-color: whitesmoke;
+}
+
+.container-fluid {
+  width: 40%;
+  margin: 0 auto;
+}
+.container-fluid .container-fluid h2 {
+  color: rgb(15, 14, 15);
+  position: relative;
+  width: 23rem;
+}
+.container-fluid .container-fluid h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  width: 67px;
+  height: 2px;
+}
+.container-fluid .accordion {
+  width: 100%;
+  padding: 0 5px;
+  border: 2px solid #000000;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+.container-fluid .accordion .icon {
+  margin: 0 10px 0 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  transition: all 0.5s ease-in;
+}
+.container-fluid .accordion h5 {
+  font-size: 25px;
+  margin: 0;
+  padding: 3px 0 0 0;
+  font-weight: normal;
+  color: #1f5c9a;
+}
+.container-fluid .panel {
+  padding: 0 15px;
+  border-left: 1px solid #000000;
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0px;
+  transition: all 0.5s ease-in;
+}
+.container-fluid .container-fluid {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#formulario-contacto {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  font-family: monospace;
+}
+#formulario-contacto h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#formulario-contacto input, #formulario-contacto textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: none;
+}
+#formulario-contacto textarea {
+  min-height: 100px;
+  max-height: 400px;
+  max-width: 100%;
+}
+#formulario-contacto #boton {
+  background: #343434;
+  color: #fff;
+  padding: 20px;
+}
+#formulario-contacto #boton:hover {
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  #formulario-contacto form {
+    width: 100%;
+  }
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(../img/background-footer.svg);
+  background-size: cover;
+}
+footer .container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 100px;
+}
+footer .box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+footer .box__footer.logo img {
+  width: 180px;
+}
+footer .box__footer h2 {
+  margin-bottom: 30px;
+  color: #343434;
+  font-weight: 700;
+}
+footer .box__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+footer .box__footer a:hover {
+  opacity: 0.8;
+}
+footer .box__footer a .fab {
+  font-size: 20px;
+}
+footer .box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+footer .box__copyright p {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+footer .box__copyright hr {
+  border: none;
+  height: 2px;
+  background-color: #7a7a7a;
+}/*# sourceMappingURL=estilo.css.map */
